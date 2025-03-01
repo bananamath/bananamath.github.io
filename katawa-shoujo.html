@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel Review</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .spoiler-section {
+            margin-top: 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .buttons {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+		
+        .spoiler {
+            background-color: black;
+            color: black;
+            padding: 0px 0px;
+            border-radius: 0px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>Katawa Shoujo Review</h1>
+    
+    <section>
+        <h2>General Review (No Spoilers)</h2>
+        <p>
+            I truly truly love this game. From the cute art with really nice full scene pictures and beautiful animated scenes, 
+            to the incredible music that manages to fit every scene in the game despite reusing many of the tracks, 
+            to the timeskip jingle (Passing of Time) that instantly lit up my face with a smile every time I heard it like Pavlov’s dog 
+            (which did bite me in the butt later when there were timeskips after sad moments), 
+            to the most important part, the writing. The writing is so so well done, there were very few parts 
+            where I thought it was bad/didn’t fit, even in scenes I didn’t particularly care for.
+            <br><br>
+            Katawa Shoujo feels like it didn’t need to be about disabilities, which is a great thing. 
+            It uses them very respectfully, allowing them to serve as a driving force behind sadness and overcoming obstacles. 
+            Also deepening relationships, especially forcing Hisao to do a lot of introspection since his time is limited. 
+            A common theme among the routes is how those with disabilities are treated with pity and as if they were weak, 
+            rather than just as a normal person. The extent to which their disabilities hinder their life varies between characters, 
+            but in all of them their disabilities are used as a tool to further the plot rather than the main element.
+            <br><br>
+            I really love the differences in the routes, and I’ll go into detail on each below. 
+            But they all serve a different purpose and while there are common themes, they focus on different aspects of life and relationships. 
+            I’ve only played a couple other visual novels, so maybe this is a common thing, but I also really liked how even the structure was shaken up, 
+            with the relationships developing at different rates and going in widely varying directions between the routes.
+            <br><br>
+            I didn’t like everything, with especially major gripes with 
+            <span class="spoiler" onclick="revealText(this)">Lilly</span>’s ending and 
+            <span class="spoiler" onclick="revealText(this)">Shizune</span>’s whole route, 
+            but the rest of the game more than made up for it. 
+            <span class="spoiler" onclick="revealText(this)">Shizune</span>’s route wasn’t even that bad, 
+            just didn’t fit with the rest in my opinion. I definitely want to replay the game sometime though, 
+            and maybe then I’ll understand it better.
+            <br><br>
+            I live for great stories, and can very easily fall into them and become emotionally invested. 
+            Katawa Shoujo caught me very quickly and held on throughout, and I can confirm I cried a LOT and loved every second of it. 
+            Truly a phenomenal and heartfelt story.
+            <br><br>
+            Easy 10/10.
+            <br><br>
+            Without further ado, the route reviews!
+        </p>
+    </section>
+
+    <section class="spoiler-section">
+        <h2>Route Reviews (Spoilers)</h2>
+        <p>
+            This is the order I played them in. After first meeting all the characters I thought my order of enjoyment would be 
+            Rin -> Lilly -> Hanako -> Emi -> Shizune.<br>
+            It ended up being Emi -> Rin -> Hanako -> Lilly -> Shizune.
+        </p>
+
+        <div class="buttons">
+            <button onclick="showReview('Lilly')">Lilly</button>
+            <button onclick="showReview('Hanako')">Hanako</button>
+            <button onclick="showReview('Emi')">Emi</button>
+            <button onclick="showReview('Shizune')">Shizune</button>
+            <button onclick="showReview('Rin')">Rin</button>
+        </div>
+        <p id="routeReview">Click each button to read that girl's route review! I'll mostly discuss their good endings but may include some elements of their other ending(s).</p>
+    </section>
+
+    <script>
+        function showReview(route) {
+            const reviews = {
+                'Lilly': "Lilly was all around very nice. As the first route I played it was a cool introduction to the fact that this game doesn't focus on the character's disabilities. The main times when Lilly's blindness was problematic was when Hisao had heart flutters and Lilly started panicking because she couldn't tell what was happening. Otherwise she was a normal girl, if very prim and proper. I thought I'd like her a ton going in and I did! The only reasons she was demoted is because the other characters are also incredible and I didn't like her ending, which I'll talk about more soon. I think she's the easiest to get into a romantic relationship with, as her hobbies are pretty normal and she's a very nice and sweet girl. This impression stuck with me, and her route was full of sweetness.<br><br>Her route is interesting how she's very comfortable with her disability, and the route is majorly focused on Hisao becoming comfortable with his. As I said before most of the major conflicts that arise are Hisao's heart issues and her not being able to do anything, which leads to her beautiful confession where she admits how scared she is of losing him. Her life has been so proper and upstanding, and now that she has fallen in love with someone he is the aspect that is random and uncontrollable, and that terrifies her.<br><br>Ok, her ending. I made a post in the Katawa Shoujo thread after I completed her good ending ranting about it. I genuinely wasn't sure if I would continue playing the game, although that was probably just how I felt in the moment. The game's writing and route up to that point was too good to just drop completely. So the whole conflict with her moving away was a little weird in the sense of it was very suddenly sprung upon Hisao. I feel like she should've told him sooner given she loves him and they'd be separated probably forever. It got worse the night that she left. Hisao breaks down and talks about how much he failed her and should've been there for her, which I felt wasn't the case. It wasn't very nice going from what I thought was a wholesome relationship to basically being told that I failed. This whiplash continued with him chasing her to the airport, with constant back and forth of he'll make it, he won't make it. I didn't even really like that Lilly comes back and decides to stay, because it feels a little bad when the only reason she came back is because her boyfriend almost died in front of her. I did read some people saying it was because she didn’t think he was willing to put a lot into the relationship since he didn’t try to stop her going before, and him chasing her showed her how much he cares. However, she gave him like 2 weeks notice that she’d be leaving his life forever. That is so little time, and left Hisao dealing with shock and losing the love of his life. And why would he argue about it when she seemed set on going and arguing could just make them both even sadder.<br><br>Ending aside, really nice wholesome route. Unfortunate it ended the way it did and almost put me off of the game, but with hindsight I can say I still liked it overall. After all, the non-ending part was good enough to make me want to continue. Lilly is beautiful, inside and out.",
+                'Hanako': "Hanako! A very nice route the whole way through. Her bad ending is tragic with even the person who she thought liked her for who she was viewed her with pity. It's been a while since I played her route but I think the deciding factor that allows for her good ending (ignoring the actual game logic) is Hisao no longer viewing <i>himself</i> as \"damaged\". In Hanako's route he struggled a lot with accepting himself and his heart condition, and I think because he was so pessimistic about it he couldn't treat Hanako normally and accept that she isn't broken. It was so heartbreaking when she finally revealed that she wasn't even that self-conscious about her burns, more so by people's reactions to them and the bullying/pity she receives. She had been so broken down that she did need Lilly's and Hisao's assistance and care, but she did not need them to view her as incapable. With that reveal and with Hisao accepting who he is, he could also accept her for who she is, and love her without feeling like he needed to be on tiptoes to not break her like the porcelain doll he viewed her as (woahhhh I understand her present now).<br><br>I do find it very interesting how the rest of the school treats Hanako. From what we've seen of Yamaku, everyone is very understanding and doesn't really talk about their disabilities, instead treating everyone normally. Everyone is quite friendly as well. This wasn't in Hanako's route, so apologies for the minor spoiler, but at one point Hisao is talking with Yuuko about the school, and how he's surprised by how \"extra\" everyone is. They're so outgoing and motivated to put on events and work as a community. But with Hanako, it's noted that most people avoid her, not making any effort to welcome her into their sphere. Lilly is the obvious exception to this, and as it's explained in game that's probably because Hanako felt more comfortable opening up to someone blind who couldn't see her scars. I don't think everyone else is \"bad\" for not talking to Hanako, I think they just don't know how. With how reclusive and jumpy she is, it's hard to start a conversation with her, much less develop a relationship. I do wish <i>someone</i> else tried, but I also understand that it's much easier to not get involved. And they might have felt better about it since they knew Lilly and Hanako are friends, so she wasn't entirely alone. It also adds realism to the game, where even in this very accepting place the students are still normal people and don't know how to approach every situation. With most disabilities we see in the game, the people with them are friendly and basically live their lives normally, but with Hanako her whole personality has been affected. With her, it's not just a matter of having to slightly alter a regular interaction to account for someone's disability. Or maybe it is, since at the end of the day she did just want to be treated with kindness and not pity, but it feels understandable for the majority of people to be lost in how to approach her.<br><br>Seeing her rare smiles and her at the end finally truly happy was magnificent and the most heartwarming thing ever. She deserves every bit of happiness.",
+                'Emi': "I liked Emi's route a <i>lot</i>. I didn't think I would! I will admit that was just because sporty, and I don't like sports, but to be fair that's all I had to go off initially. But I was very pleasantly surprised. I'm still not sure if I like hers or Rin's route better, but at the current moment I lean slightly towards Emi, which sort of surprises me.	Rin's route impacted me more and I thought from the beginning I'd like her the best, but Emi's route was special. I think I related more to her route. This is probably partially to do with that Hisao's heart was basically not a problem at all. This was because of his regular exercise, and it had the side effect of making him totally fine with his disability. In other routes it's a much larger issue, but with Emi he was entirely focused on his relationship with her. I really liked the writing around his disablity in other routes, but personally I can't relate to it, giving this route an edge at relating to me more.<br><br>A bigger reason though that I actually realized while writing this review, I relate to <i>Emi</i> a lot. Not in running or even in having a sense of purpose of something you have to do (I'm working on it haha). But in holding your feelings inside and finding it extremely difficult to share them. I'm generally a very happy person and don't have many issues, and none as big as Emi losing her dad. But there's some things that make me sad, both temporary and longstanding, and they're hard to share, to talk about. This is certainly an extremely widely shared sentiment, but nevertheless I felt really seen by Emi's writing. It was nice to see the other side of it, where Hisao could tell when Emi wasn't her cheeriest (Emiest) or was hiding something. Emi's dialogue saying she didn't want to open up because it was something she could handle on her own hit very hard for me. She's right, and just like me she could in fact handle it fine on her own. But she could handle it better with someone there to support her. Admitting that is difficult, probably even more so in her case when she's spent her life proving she doesn't need help with her disability. I really liked that they quickly got into a relationship and the conflict of the route was Hisao realizing she wouldn't allow him to get close. It was a very interesting twist to what I thought the game's format would be.<br><br>Every bit of her writing was impeccable and relatable, from her reluctance to open up to her anger at the mention of help to the relief she felt when she finally realized Hisao was someone she could lean on when things got too rough. After seeing her very happy but with a tinge of sadness, the final scene of her waking up truly happy and excited for the day was beautiful.",
+                'Shizune': "Unfortunately, I wasn't a fan of Shizune. I didn't think I would be from her introduction, with her being pretty rude to Lilly and rather manipulative with Hisao. That sentiment stayed pretty much the same, although it's not like I hate her. My biggest issue with her and her route is just how...bland it was. There was extremely little conflict, and even that was mostly thrown in at the end with Misha. I thought the resolution to Misha was really weird and honestly don't even really understand the difference between the good and bad ending. In both Shizune seemingly tries to be pushy in getting Misha back on her feet, without really apologizing. I guess in the good ending she has more of a realization of how pushy she is and maybe apologizes and tries to do better, but I didn't really see it. It felt like it resolved too quickly.<br><br>I will say Hisao learning sign language was very sweet, but I thought it'd be more impactful. Instead of Shizune being really grateful, it was kind of just a nonchalant shift from talking through Misha to talking one-on-one. I'm sure she was very grateful and maybe it's just not in personality to show it, but it was weird to see such an important thing moved past so quickly. Especially since it seems almost nobody at Yamaku knows sign language, and Hisao really dedicated himself to it. In general I didn't see Shizune's personality as very deep. She treats literally everything as a competitive game, and very very rarely showed any other emotions, like gratitude or sadness. Even the romance seemed out of place, with it kind of just happening randomly and then almost never being talked about again. I know Shizune and Hisao dating is what caused Misha to fall into sadness, but they really didn't act much different before or after being a couple. It just seemed like them dating was there because every other route involves dating.<br><br>I'll replay her route at some point and try to have a more open mind, although I can't say I understand her any better after completing it. I really just didn't understand who she was throughout. I'll end on a good note though, because there were positives! She and Misha are good people, just need to be more mindful of other people's feelings. With that in mind, there is a scene early on when they enter Hisao's room and see his pills. When he says he doesn't want to talk about it, they both say \"Okay~! Then, we'll wait, and become better and better friends, and one day when you feel like it, you can tell us about it~!\" That is really really sweet and a phenomenal example of how accepting this school is, and how accepting everyone in the world should be.",
+                'Rin': "Wow, Rin. I loved her from the start because I love being silly and her style of talking really meshed with me. That's why I saved her for last, and I'm so glad I did. She's the most I laughed in this game. She's also the most I cried, the most stressed I felt, the most upset I got, the most I cared about the events that unfolded. She would easily be my favorite route if not for how much I personally related to Emi, but I think hers is definitely the best story.<br><br>It was obvious Rin has trouble communicating her feelings, but it wasn't obvious to what degree that bothered her. She can't even understand her own feelings which troubles her, and her inability to communicate with others hurts her. Even though she seems so aloof and uncaring, all she wants, whether she understood it or not, was to not be alone. To have someone that understands her, without her needing to say how she felt. That's what she wanted of Hisao, but Hisao wanted someone who could tell him what they were feeling. This disconnect tore me apart to read as it tore their relationship apart, with Rin's inability to communicate how Hisao wanted her to being the real rift between them, not her being focused on art like Hisao thought. Art is how she tried to communicate with the world, but he couldn't understand it and she couldn't understand any other way.<br><br>It's interesting that although her disability was her lack of arms, the real thing that affects her life is her communication. Hisao thought she just wasn't trying to talk to him, but she didn't know how to process her thoughts or talk in any other way. There were times when each would momentarily get closer to the other and let understanding slip through, with Hisao occasionally catching Rin's expression and parsing her thoughts and Rin sometimes being able to express a feeling. One such moment that stood out to me was when Rin says the difference betweeen them is although neither is particularly happy with their life, Rin is still glad to be who she is. She notices the truth, that Hisao is stuck and has been since his heart attack, regretting his existence and living every day pessimistically. And then she hugs him. She knows that hugging comforts people, so even though she doesn't know how to process or understand emotions, she knows that it will make Hisao feel better. That is so selfless, so sweet of her to do when she doesn't even fully understand why it helps, but all that matters is that it does help. The scene gets even nicer when it makes Hisao cry for the first time, accepting his condition and himself and vowing to be better. Although this happens before Rin's art journey and them fighting, I think it's a really important step in both of them learning to accept the other regardless of a lack of understanding. You don't need to fully understand someone to care for them.<br><br>Rin's ending was flawless. Them realizing they're not good for each other, them wanting to be with each other anyway, them realizing their expectations for each other could be changed. They do love and care for each other, but they were trying to make the other adapt to a form they could understand better, rather than accepting their differences and building a relationship with that in mind. As I said, you don't need to fully understand someone to care for them. They were already doing elements of this and that's how they fell in love with each other, but they tried to push the boundaries beyond what either of them were ready for. Them finally accepting each other and accepting that they'll learn about each other as time goes on was a beautiful moment, followed up with a truly beautiful ending. Hisao reflects on what it means to be in the present, to be alive, his understanding growing closer to how Rin feels, and during that scene the full version of Passing of Time plays, the scene transition music. That floored me. As I said up top that music always made me smile and was a core part of me experiencing this game, and to learn that there was an extended version and have it play during that scene was truly a stunning and magnificient experience.<br><br>And then the very end.<br><br>\"Maybe to accept someone else, you must first accept yourself.\"<br><br>\"What's the word for when it feels inside your heart that everything in the world is all right?\""
+            };
+            document.getElementById("routeReview").innerHTML = reviews[route];
+        }
+
+        function revealText(element) {
+            element.style.color = "inherit"; // Reveals text
+            element.style.backgroundColor = "transparent"; // Removes black bar
+            element.style.cursor = "default"; // No longer clickable
+            element.onclick = null; // Prevents further clicks
+        }
+    </script>
+</body>
+</html>
